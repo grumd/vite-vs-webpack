@@ -1,7 +1,5 @@
 import { useState, Suspense, lazy } from 'react';
 
-import "./styles.css";
-
 const Entry = lazy(() => import('./components/Entry'))
 
 export default function App() {
